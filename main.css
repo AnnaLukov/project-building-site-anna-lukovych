@@ -97,67 +97,88 @@
     }
 }
 
-.container-projects {
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-
 .main-home-projects {
-    display: block;
-    cursor: pointer;
+    display: inline-block;
     width: 100%;
     text-decoration: none;
-
 }
 
 .main-home-projects h2 {
-    color: #337ab7;
     font-size: 2rem;
-    text-decoration: none;
     text-align: center;
-    width: 100%;
+    vertical-align: middle;
+    color: #337ab7;
+    font-weight: bold;
 }
 
 .main-home-projects h2:hover,
 .main-home-projects h2:active {
-    color: #08294D;
+    color: #061E38;
+}
+
+.container-projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .main-home-project {
-    width: 100%;
+    margin: 0 1rem;
 }
 
-@media (min-width: 40rem) {
-    .main-home-project {
-        width: 19.5rem;
-        float: left;
-    }
+.imgBox {
+    position: relative;
+    overflow: hidden;
 }
 
-
-h3 {
-    text-align: center;
-    font-size: 0.85rem;
-    width: 100%;
-    color: #08294D;
-}
-
-
-.main-home-project__photo {
+.imgBox a {
     display: block;
-    text-decoration: none;
-    padding: 2px;
-    margin: 1rem;
 }
 
-.main-home-project__photo:hover {
-    background-color: lightgray;
+.imgBox a img {
+    width: 17rem;
+    height: 12.5rem;
+    transition: all 0.5s;
 }
 
-.main-home-project__photo img {
-    width: 16rem;
-    height: 12rem;
+.imgBox:hover a img {
+    transform: scale(1.2);
+}
+
+.imgBox a::before {
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0,0.4);
+    width: 0;
+    height: 100%;
+    left: 50%;
+    transition: all0 0.5s;
+    z-index: 1;
+}
+
+.imgBox a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.imgBox h3 {
+    position: absolute;
+    bottom: 5%;
+    color: #ffffff;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+    font-weight: bolder;
+    margin: 6px 0;
+}
+
+.imgBox:hover h3 {
+    transform: translateY(150%);
+}
+@media (min-width: 40rem) {
+    /*.main-home-project {*/
+
 }
 
 .clear {
