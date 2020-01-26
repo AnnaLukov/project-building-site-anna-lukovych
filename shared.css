@@ -58,6 +58,10 @@ main {
     height: 2.5rem;
     display: inline-block;
     vertical-align: middle;
+    /*background-image: url("../project-building-site-anna-lukovych/image/kisspng-netherlands-vector-map-vector-of-the-map.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: right;*/
 }
 
 .main-header__brand img {
