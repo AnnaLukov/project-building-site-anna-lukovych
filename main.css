@@ -42,11 +42,16 @@
     padding: 0.2rem 4rem;
 }
 
+.main-home-text span {
+    font-weight: bold;
+}
+
 .container-block {
    width: 100%;
    background: rgb(232,232,232, 0.358);
    text-align: center;
    display: inline-block;
+    box-shadow: 1px 0px 7px 4px rgba(9,47,86,0.1);
 }
 
 .main-block {
@@ -104,16 +109,16 @@
 }
 
 .main-home-projects h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     vertical-align: middle;
-    color: #337ab7;
+    color: #08294D;
     font-weight: bold;
 }
 
 .main-home-projects h2:hover,
 .main-home-projects h2:active {
-    color: #061E38;
+    color: #337ab7;
 }
 
 .container-projects {
