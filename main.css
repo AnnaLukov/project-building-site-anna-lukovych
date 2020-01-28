@@ -34,12 +34,13 @@
     box-shadow: 2px 5px 15px 10px #061E38 ;
 }
 
+
 .main-home-text p {
     text-align: center;
     color: #08294D;
     font-size: 1.7rem;
     font-style: italic;
-    padding: 0.2rem 4rem;
+    padding: 3rem 4rem;
 }
 
 .main-home-text span {
@@ -51,7 +52,7 @@
    background: rgb(232,232,232, 0.358);
    text-align: center;
    display: inline-block;
-    box-shadow: 1px 0px 7px 4px rgba(9,47,86,0.1);
+    box-shadow: 1px 0px 7px 3px rgba(9,47,86,0.1);
 }
 
 .main-block {
