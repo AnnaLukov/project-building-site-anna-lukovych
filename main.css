@@ -49,21 +49,21 @@
 
 .container-block {
    width: 100%;
-   background: rgb(232,232,232, 0.358);
+   background: rgb(51, 122, 183, 0.3);
    text-align: center;
    display: inline-block;
-    box-shadow: 1px 0px 7px 3px rgba(9,47,86,0.1);
+    box-shadow: 1px 0px 7px 3px rgba(9,47,86,0.36);
 }
 
 .main-block {
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     display: inline-block;
     text-align: center;
 }
 
 .main-block a {
     display: inline-block;
-    cursor: pointer;
+
 }
 
 .main-block h2:hover,

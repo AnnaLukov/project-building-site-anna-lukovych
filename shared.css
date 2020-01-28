@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+a {
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
 
 body {
     font-family: 'Roboto Slab', serif;
@@ -35,7 +39,6 @@ main {
     width: 3rem;
     background: transparent;
     border: none;
-    cursor: pointer;
     padding-top: 0;
     padding-bottom: 0;
     vertical-align: middle;
