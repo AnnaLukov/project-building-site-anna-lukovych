@@ -1,5 +1,12 @@
-.main-objects {
-    padding: 2rem 4rem;
+.main-projects-text {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
+.main-project {
+    padding: 0.5rem 4rem;
     width: 100%;
 
 }
@@ -31,4 +38,10 @@ article div h2 {
     font-size: 1.3rem;
     color: #08294D;
     letter-spacing: 0.15rem;
+}
+
+article div p {
+    color: #061E38;
+    text-indent: 1.5em;
+    /*text-align: justify;*/
 }
