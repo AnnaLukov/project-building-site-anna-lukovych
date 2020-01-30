@@ -63,8 +63,16 @@
     text-align: left;
 }
 
-.container__img {
-    width: 60%;
+.container__img1 {
+    width: 37%;
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+}
+
+.container__img2 {
+    width: 65%;
     max-width: 500px;
     display: inline-block;
     vertical-align: middle;
@@ -93,10 +101,16 @@
         min-width: 1100px;
     }
 
-    .container__img {
+    .container__img2 {
         display: inline-block;
         vertical-align: middle;
         width: 60%;
+    }
+
+    .container__img1 {
+        display: inline-block;
+        vertical-align: middle;
+        width: 37%;
     }
 
     .container__info {
@@ -123,29 +137,30 @@
 
 .main-work-bottom {
     width: 100%;
-    height: 50vh;
-    background-image: url("../image/strelka-sinii-fon-linii-geometriia-goluboi.jpg");
-    background-repeat: no-repeat;
+    height: 40vh;
+    background-image: url("../image/paper_3_@2X.png");
+    background-repeat: repeat;
     background-origin: border-box;
     background-position: center;
     position: relative;
+    /*border: 3px solid #08294D;*/
 }
 
-.main-work-bottom__overlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgb(51, 122, 183, 0.4);
-}
+/*.main-work-bottom__overlay {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    !*background-color: rgb(51, 122, 183, 0.4);*!*/
+/*}*/
 
 .main-work-bottom__overlay p {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     font-size: 1.9rem;
-    color: #ffffff;
-    padding: 8vh 5rem;
+    color: #061E38;
+    padding: 5vh 5rem;
 
 }

@@ -1,20 +1,32 @@
 .main-projects-text {
     width: 100%;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
-    padding-top: 1rem;
+    padding: 1rem 5rem;
+}
+
+.main-projects-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #061E38;
+}
+
+.main-projects-text p {
+    font-size: 1.1rem;
+    color: #1C212B;
+    text-indent: 1.5em;
+    font-style: italic;
 }
 
 .main-project {
     padding: 0.5rem 4rem;
     width: 100%;
-
 }
+
+
 
 article img {
     display: block;
-    height: 21rem;
-    width: 35rem;
     /*box-shadow: 5px 4px 7px 0px rgba(12,5,99,0.78)*/
 }
 
