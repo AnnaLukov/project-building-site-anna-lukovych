@@ -6,7 +6,7 @@
     background-origin: border-box;
     background-position: center;
     width: 100%;
-    height: 70vh;
+    height: 92vh;
     margin-top: 3rem;
     position: relative;
     z-index: -1;
@@ -26,7 +26,7 @@
     color: #fff;
     text-align: center;
     position: absolute;
-    top: 25vh;
+    top: 36vh;
     font-size: 3rem;
     padding: 1rem;
     margin: 0;
