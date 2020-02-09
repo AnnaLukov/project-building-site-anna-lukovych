@@ -11,13 +11,23 @@ body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
     background-image: url("./image/so-white.png");
+
 }
 
 main {
     min-height: calc(100vh - 3.5rem - 8rem);
     margin-top: 3.3rem;
-
 }
+
+/*.backdrop {*/
+/*    position: fixed;*/
+/*    display: none;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 200;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background: rgba(0, 0, 0, 0.5);*/
 
 .main-header {
     width: 100%;
@@ -177,6 +187,10 @@ main {
     margin: 10% auto;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mobile-nav__item {
@@ -185,6 +199,10 @@ main {
 
 .mobile-nav__item a {
     font-size: 1.5rem;
+}
+
+.open {
+    display: block !important;
 }
 
 @media (min-width: 40rem) {
