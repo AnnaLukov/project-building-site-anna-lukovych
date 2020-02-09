@@ -53,3 +53,41 @@
     text-indent: 1.5em;
     color: #08294D;
 }
+
+.main-certificates {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.container_elements {
+    width: 100%;
+}
+
+.container_element1 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+
+}
+
+.container_element1 h2 {
+    color: #061E38;
+    font-size: 2rem;
+    margin: 0.6rem;
+    text-transform: uppercase;
+}
+
+.container_element2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+
+}
+
+.container_element2 img {
+    height: 23rem;
+    margin: 1rem;
+    border: 2px solid #08294D;
+}
