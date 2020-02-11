@@ -38,15 +38,13 @@
 .main-work-text p {
     text-align: center;
     color: #08294D;
-    font-size: 1.7rem;
-    font-style: italic;
-    padding: 3rem 8rem;
-    letter-spacing: 1.5px;
-    /*text-indent: 30px;*/
+    font-size: 1.5rem;
+    padding: 3rem 6rem;
 }
 
 .main-work-text span {
     font-weight: bold;
+
 }
 
 .main-work-part1,
@@ -90,7 +88,7 @@
 
 .container__info {
     text-align: right;
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: inline-block;
     vertical-align: middle;
     width: 30%;
@@ -120,14 +118,15 @@
         display: inline-block;
         vertical-align: middle;
         width: 50%;
+        text-align: left;
     }
 
 }
 
 .container__info h2 {
-    margin: 0.2rem;
+    margin: 0.2rem 0;
     color: #061E38;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .container__info p {
@@ -136,38 +135,11 @@
 
 .container__info span {
     font-style: italic;
+    font-weight: bolder;
+
 }
 
 .clear {
     clear: both;
 }
 
-.main-work-bottom {
-    width: 100%;
-    height: 40vh;
-    background-image: url("../image/paper_3_@2X.png");
-    background-repeat: repeat;
-    background-origin: border-box;
-    background-position: center;
-    position: relative;
-    /*border: 3px solid #08294D;*/
-}
-
-/*.main-work-bottom__overlay {*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    !*background-color: rgb(51, 122, 183, 0.4);*!*/
-/*}*/
-
-.main-work-bottom__overlay p {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.9rem;
-    color: #061E38;
-    padding: 5vh 5rem;
-
-}

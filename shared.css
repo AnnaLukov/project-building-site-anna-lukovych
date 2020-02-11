@@ -19,22 +19,23 @@ main {
     margin-top: 3.3rem;
 }
 
-/*.backdrop {*/
-/*    position: fixed;*/
-/*    display: none;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    z-index: 200;*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*    background: rgba(0, 0, 0, 0.5);*/
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
 
 .main-header {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(255, 255, 255);;
+    background: rgb(255, 255, 255);
     padding-left: 2rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
@@ -122,7 +123,7 @@ main {
 
     .main-nav {
         display: inline-block;
-        width: calc(100%-44px);
+        /*width: calc(100% - 44px);*/
         float: right;
         margin-top: 7px;
     }
@@ -172,7 +173,7 @@ main {
 .mobile-nav {
     display: none;
     position: fixed;
-    z-index: 100;
+    z-index: 300;
     top: 0;
     left: 0;
     background: white;
