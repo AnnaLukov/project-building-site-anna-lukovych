@@ -56,18 +56,22 @@
 
 .main-contact-info__address {
     margin: 0 2rem;
-    padding: 1em;
+    padding: 2em;
 }
 
 .main-contact-info__address h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #061E38;
 }
 
 .main-contact-info__address address {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #061E38;
-    line-height: 1.8em;
+    line-height: 2em;
+}
+
+.main-contact-info__address address > span {
+    font-weight: 600;
 }
 
 

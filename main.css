@@ -30,19 +30,19 @@
     font-size: 3rem;
     padding: 1rem;
     margin: 0;
-    background-color: rgb(8, 41, 77, 0.4);
+    background-color: rgba(8, 41, 77,0.4);
     box-shadow: 2px 5px 15px 10px #061E38 ;
 }
 
 .main-home-text {
     width: 100%;
+    font-size: 1rem;
 }
 
 .main-home-text p {
     text-align: center;
     color: #08294D;
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.7em;
     padding: 3rem 4rem;
 }
 
@@ -59,15 +59,14 @@
     .main-home-picture {
         width: 100%;
     }
-
 }
 
 .main-home-rounds {
     height: 60vh;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 4rem;
-
+    font-size: 1rem;
 }
 
 .home-rounds__text {
@@ -78,8 +77,8 @@
 
 }
 .home-rounds__text h3 {
-    color: #08294D;
-    font-size: 1.7rem;
+    color: #061E38;
+    font-size: 1.7em;
 }
 
 .main-home-rounds div {
@@ -95,7 +94,7 @@
 
 .home-rounds p {
     color: #061E38;
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: bold;
     margin: 0.2rem;
 }
@@ -121,6 +120,11 @@
     margin: auto;
 }
 
+.main-home-work {
+    width: 100%;
+    font-size: 1rem;
+}
+
 .main-home-projects {
     display: inline-block;
     width: 100%;
@@ -128,13 +132,13 @@
 }
 
 .main-home-projects h2 {
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
     vertical-align: middle;
     color: #08294D;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 2rem;
+    margin: 2em;
 }
 
 .main-home-projects h2:hover,
