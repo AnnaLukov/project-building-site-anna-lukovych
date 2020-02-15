@@ -23,15 +23,26 @@
 
 .main-home-picture__overlay h1 {
     width: 100%;
-    color: #fff;
-    text-align: center;
     position: absolute;
     top: 36vh;
-    font-size: 3rem;
-    padding: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
     margin: 0;
+    padding: 1rem;
+    color: #fff;
     background-color: rgba(8, 41, 77,0.4);
     box-shadow: 2px 5px 15px 10px #061E38 ;
+    animation: textanimation 1.3s ease-in-out;
+}
+
+@keyframes textanimation {
+    0% {
+        letter-spacing: 15px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
 }
 
 .main-home-text {
@@ -41,14 +52,18 @@
 
 .main-home-text p {
     text-align: center;
-    color: #08294D;
     font-size: 1.7em;
+    color: #08294D;
     padding: 3rem 4rem;
+
 }
+
 
 .main-home-text span {
     font-weight: bold;
 }
+
+
 
 @media (min-width: 40rem) {
     .container {
