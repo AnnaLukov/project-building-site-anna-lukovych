@@ -1,12 +1,12 @@
 .main-contact-picture {
-    background-image: url("../image/redcharlie-HF8sDs6VZBE-unsplash.jpg");
+    background-image: url("../image/19_GLOBAL_Netherlands_Report_Blog_Banner.jpg");
     background-color: #337ab7;
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
     background-position: center;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     margin-top: 3rem;
     position: relative;
     z-index: -1;
@@ -18,7 +18,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(51, 122, 183, 0.25);
+    background-color: rgba(51, 122, 183, 0.35);
 }
 
 .main-contact-text {
