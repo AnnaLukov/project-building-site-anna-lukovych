@@ -55,14 +55,11 @@
     font-size: 1.7em;
     color: #08294D;
     padding: 3rem 4rem;
-
 }
-
 
 .main-home-text span {
     font-weight: bold;
 }
-
 
 
 @media (min-width: 40rem) {
@@ -100,6 +97,7 @@
     display: flex;
     justify-content: center;
 }
+
 
 .home-rounds {
     display: flex;
