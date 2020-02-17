@@ -79,15 +79,19 @@
     margin-top: 3rem;
     margin-bottom: 4rem;
     font-size: 1rem;
+
 }
+
+
 
 .home-rounds__text {
     width: 100%;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-
 }
+
+
 .home-rounds__text h3 {
     color: #061E38;
     font-size: 1.7em;
