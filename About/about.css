@@ -155,7 +155,7 @@
 }
 
 .hover-buttons {
-    width: 90px;
+    width: 40px;
     height: 40px;
     position: absolute;
     top: 0;
@@ -194,7 +194,7 @@
 
 .zoom:after {
     display: inline-block;
-    font: normal normal normal 14px/1 "fontello";
+    /*font: normal normal normal 14px/1 "fontello";*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: auto;
@@ -210,11 +210,6 @@
     content: "\e802"
 }
 
-/*.link:after {*/
-/*    content: "\e800";*/
-/*}*/
-
-/*lesson 11*/
 .overlay {
     position: fixed;
     top: 0;
