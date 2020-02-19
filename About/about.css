@@ -10,12 +10,57 @@
     color: #061E38;
 }
 
+.main-about-mission {
+    width: 100%;
+    margin: 3rem 0;
+    background-image: url("../image/paper_3_@2X.png");
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.main-about-mission_container {
+    width: 60%;
+    margin: 3rem auto 1rem;
+}
+
+
+.main-about-mission_container h2 {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #08294D;
+}
+
+.main-about-mission_container h3 {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em 0;
+    color: #08294D;
+}
+
+.main-about-mission_container p {
+    font-size: 1em;
+    margin: 1em 0;
+    color: #08294D;
+}
+
+.main-about-mission__img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.main-about-mission__img img {
+    display: block;
+    width: 100%;
+}
+
 .main-about-team {
     position: relative;
     display: inline-block;
     width: 100%;
     height: 66vh;
-    margin: 3rem 0;
+    margin: 4rem 0;
 }
 
 .main-about-team__img {
@@ -30,7 +75,7 @@
     position: relative;
     width: 60%;
     left: 3.5rem;
-    top: 5rem;
+    top: 4rem;
     padding: 1rem;
     background-image: url("../image/paper_3_@2X.png");
     background-size: cover;
@@ -52,44 +97,6 @@
     text-indent: 1.5em;
     color: #08294D;
 }
-
-/*.main-certificates {*/
-/*    width: 100%;*/
-/*    margin: 3rem 0;*/
-/*}*/
-
-/*.container_elements {*/
-/*    width: 100%;*/
-/*}*/
-
-/*.container_element1 {*/
-/*    width: 100%;*/
-/*    display: inline-block;*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*    margin-top: 3rem;*/
-
-/*}*/
-
-/*.container_element1 h2 {*/
-/*    color: #061E38;*/
-/*    font-size: 2rem;*/
-/*    margin: 0.6rem;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*.container_element2 {*/
-/*    display: flex;*/
-/*    justify-content: space-around;*/
-/*    margin: 2rem 0;*/
-
-/*}*/
-
-/*.container_element2 img {*/
-/*    height: 23rem;*/
-/*    margin: 1rem;*/
-/*    border: 2px solid #08294D;*/
-/*}*/
 
 .main-about-certificates {
     text-align: center;
