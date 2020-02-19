@@ -99,7 +99,9 @@
 
 .main-home-rounds div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
 }
 
 
@@ -166,6 +168,7 @@
 .container-projects {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 

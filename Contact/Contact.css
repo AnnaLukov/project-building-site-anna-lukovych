@@ -47,6 +47,7 @@
 
 .main-contact-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     margin: 4rem 0;
