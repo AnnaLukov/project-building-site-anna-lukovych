@@ -23,20 +23,21 @@
     width: 100%;
 }
 
-article img {
-    display: block;
-    /*box-shadow: 5px 4px 7px 0px rgba(12,5,99,0.78)*/
-}
-
 article {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin: 3rem 0;
-    /*border-top: 3px solid #337ab7;*/
+}
 
+article img {
+    display: block;
+    width: 45%;
 }
 
 article div {
     display: inline-block;
+    width: 45%;
     text-align: justify;
     padding: 1rem;
     background-image: url("../image/paper_3_@2X.png");
