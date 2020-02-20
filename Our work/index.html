@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
   <link href="../shared.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../animate.min.css">
 </head>
 <body>
   <div class="backdrop"></div>
@@ -65,7 +66,7 @@
       <a id="Cyrus"></a>
     </section>
     <section class="main-project">
-     <article>
+     <article class="wow fadeInLeft">
         <img src="../image/CONE_AMS1_Hero_Dec18.jpg" alt="Cyrus One">
         <div>
           <h2>DATA CENTER CYRUS ONE IN AMSTERDAM</h2>
@@ -80,7 +81,7 @@
           <a id="Rotterdam"></a>
         </div>
       </article>
-      <article>
+      <article class="wow fadeInRight">
         <img src="../image/Rotterdam.jpg" alt="Water Plan">
         <div>
         <h2>EVIDES WATER TREATMENT PLAN IN ROTTERDAM</h2>
@@ -91,7 +92,7 @@
           <a id="Microsoft"></a>
         </div>
       </article>
-      <article>
+      <article class="wow fadeInLeft">
         <img src="../image/Data%20center.jpg" alt="Microsoft Data Center">
         <div>
         <h2> MICROSOFT DATA CENTER IN AMSTERDAM AIRPORT AREA</h2>
@@ -104,7 +105,7 @@
           <a id="Audi"></a>
         </div>
       </article>
-      <article>
+      <article class="wow fadeInRight">
         <img src="../image/Audi-automation-assembly-lines.jpg" alt="Audi">
         <div>
         <h2>AUDI BRUSSELS</h2>
@@ -131,5 +132,9 @@
     </div>
   </footer>
   <script src="../script.js"></script>
+  <script src = "../wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>

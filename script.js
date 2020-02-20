@@ -108,4 +108,5 @@ $(function () {
         $(".full-image").hide();
         $(".hover-buttons").css("visibility", "visible");
     });
+
 });
