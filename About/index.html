@@ -8,6 +8,7 @@
   <link href="../shared.css" rel="stylesheet">
   <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet'/>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../animate.min.css">
 </head>
 <body>
   <div class="backdrop"></div>
@@ -59,13 +60,13 @@
     </ul>
   </nav>
   <main>
-    <section class="main-about-text">
+    <section class="main-about-text wow fadeInUp">
       <p>At RNDV Group Netherlands, our most valuable resource is our people. We take pride in investing the time and
         energy to recruit the best talent in our industry.
         Our associates are equipped with the best environment, tools, and training to grow into a life-long career with
         RNDV Group Netherlands. Our projects are only as successful as our people. </p>
     </section>
-    <section class="main-about-mission">
+    <section class="main-about-mission wow fadeInUp">
       <div class="main-about-mission_container">
         <h2>MISSION & VISION</h2>
         <div class="main-about-mission__mission">
@@ -83,7 +84,7 @@
         <img src="../image/footer-bg.png">
       </div>
     </section>
-    <section class="main-about-team">
+    <section class="main-about-team wow fadeInUp">
       <div class="main-about-team__text">
         <h2>Life at RNDV Group Netherlands</h2>
         <p>What is it like working at RNDV Group Netherlands? Working at RNDV Group Netherlands is very much like a
@@ -98,7 +99,7 @@
         <img src="../image/Team.jpg" alt="Team">
       </div>
     </section>
-    <section class="main-about-certificates">
+    <section class="main-about-certificates wow fadeInUp">
       <h2 class="certificates-heading">Our Certificates</h2>
       <div class="gallery">
         <div class="image-container">
@@ -135,14 +136,6 @@
             <a class="link" href="#">link image-5</a>
           </div>
         </div>
-        <!--        <div class="image-container">-->
-        <!--          <img class="preview" src="../image/SPSC-sertifikatas-Nr.-7810-2017-01-31-page-001-e1486538795928.jpg" alt="">-->
-        <!--          <div class="hover-buttons overlay popup" style="visibility: visible">-->
-        <!--            <a class="zoom" href="#img-6">zoom image-6</a>-->
-        <!--            <a class="link" href="#">link image-6</a>-->
-        <!--          </div>-->
-        <!--        </div>-->
-
         <div class="overlay"></div>
         <div class="popup">
           <img id="img-1" class="full-image" src="../image/ISO-9001-RNDV-Group-EN.jpg" alt="">
@@ -172,5 +165,9 @@
   </footer>
   <script src="../jquery-3.2.1.min.js"></script>
   <script src="../script.js"></script>
+  <script src="../wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
 </body>
 </html>

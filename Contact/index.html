@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
   <link href="../shared.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../animate.min.css">
 </head>
 <body>
   <div class="backdrop"></div>
@@ -70,7 +71,7 @@
       </div>
     </section>
     <section class="main-contact-info">
-      <div class="main-contact-info__address">
+      <div class="main-contact-info__address wow fadeInLeft">
         <h2>CONTACT INFORMATION:</h2>
         <address>
           <span>Address:<br></span>
@@ -79,7 +80,7 @@
           <span>Email:</span> infoNetherlands@rndvgroup.eu
         </address>
       </div>
-      <div class="main-contact-info__form">
+      <div class="main-contact-info__form wow fadeInRight">
         <div class="input-fields">
           <input type="text" class="input" placeholder="Name">
           <input type="text" class="input" placeholder="Email Address">
@@ -108,5 +109,9 @@
     </div>
   </footer>
   <script src="../script.js"></script>
+  <script src="../wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
 </body>
 </html>
