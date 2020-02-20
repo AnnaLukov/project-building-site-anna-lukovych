@@ -223,10 +223,10 @@
 .imgBox:hover h3 {
     transform: translateY(150%);
 }
-@media (min-width: 40rem) {
-    /*.main-home-project {*/
+/*@media (min-width: 40rem) {*/
+/*    !*.main-home-project {*!*/
 
-}
+/*}*/
 
 .clear {
     clear: both;
