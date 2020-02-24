@@ -212,7 +212,9 @@
 }
 
 .zoom:after {
-    content: "\e802"
+    font: normal normal normal 14px/1 "fontello";
+    text-rendering: auto;
+    content: "\1F50D"
 }
 
 .overlay {
@@ -279,7 +281,7 @@
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: "\e801";
+    content: "\274C";
 
     display: inline-block;
     font-size: 15px;
