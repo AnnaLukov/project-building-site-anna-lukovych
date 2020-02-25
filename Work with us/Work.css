@@ -87,7 +87,6 @@
     width: 100%;
     font-size: 1rem;
     display: flex;
-    /*flex-direction: column;*/
     flex-wrap: wrap;
     justify-content: center;
     background-image: url("../image/paper_3_@2X.png");
