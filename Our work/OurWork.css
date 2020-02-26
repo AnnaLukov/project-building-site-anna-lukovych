@@ -33,7 +33,7 @@ article {
 article img {
     display: block;
     width: 45%;
-    min-width: 300px;
+    min-width: 322px;
     max-width: 800px;
     object-fit: cover;
 }
@@ -41,7 +41,7 @@ article img {
 article div {
     display: inline-block;
     width: 45%;
-    min-width: 330px;
+    min-width: 322px;
     max-width: 800px;
     text-align: justify;
     padding: 1rem;
