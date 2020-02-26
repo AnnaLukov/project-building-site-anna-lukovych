@@ -59,7 +59,7 @@
     position: relative;
     display: inline-block;
     width: 100%;
-    height: 66vh;
+    /*height: 66vh;*/
     margin: 4rem 0;
 }
 
@@ -75,6 +75,26 @@
     min-width: 400px;
     max-width: 800px;
     object-fit: cover;
+}
+
+@media (max-width:700px) {
+    .main-about-team {
+        margin: 15px 0;
+    }
+
+    .main-about-team__img {
+        display: none;
+    }
+
+    .main-about-team__text {
+        width: 100%;
+        min-width: 500px;
+        margin: 15px;
+        padding: 0;
+        position: relative;
+        left: 1rem;
+
+    }
 }
 
 .main-about-team__text {
@@ -107,7 +127,7 @@
 
 .main-about-certificates {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 10rem;
     padding-bottom: 100px;
     /* min-width: 390px;*/
 }
@@ -232,8 +252,6 @@
 
 .popup {
     position: fixed;
-    /*width: 100%;*/
-    /*max-width: 600px;*/
     height: 100%;
     max-height: 420px;
     border: 1px solid grey;
@@ -251,9 +269,7 @@
 }
 
 .full-image {
-    /*height: 600px;*/
     max-height: 100%;
-    /*min-width: 360px;*/
     object-fit: cover;
     display: none;
 }

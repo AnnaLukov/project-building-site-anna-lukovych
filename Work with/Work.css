@@ -166,6 +166,12 @@
     /*margin: 4em 1rem;*/
 }
 
+@media (max-width:700px) {
+    .main-work-gallery {
+        display: none;
+    }
+}
+
 .main-work-gallery__container img {
     display: block;
     width: 23%;
