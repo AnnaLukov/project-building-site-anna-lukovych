@@ -74,11 +74,11 @@
 }
 
 .main-home-rounds {
-    height: 63vh;
     width: 100%;
     background-image: url("./image/paper_3_@2X.png");
     margin-top: 3rem;
     margin-bottom: 4rem;
+    padding: 1.5rem 0;
     font-size: 1rem;
 }
 
@@ -99,6 +99,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 .home-rounds {
     display: flex;

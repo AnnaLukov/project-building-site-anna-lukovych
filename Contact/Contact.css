@@ -75,11 +75,10 @@
     font-weight: 600;
 }
 
-
-
 .main-contact-info__form{
     display: flex;
     max-width: 530px;
+    min-width: 300px;
     margin: 0 1rem;
     background: rgba(28, 33, 43,0.75);
     padding: 30px;

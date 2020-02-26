@@ -95,7 +95,7 @@
 
 .main-work-interview__container {
     width: 45%;
-    min-width: 450px;
+    min-width: 290px;
     padding: 1.5em;
     margin-bottom: 2rem;
     border-right: 2px solid #337ab7;
@@ -122,14 +122,16 @@
 
 .main-work-interview__img {
     width: 40%;
-    min-width: 450px;
-    margin-left: 1em;
+    min-width: 300px;
+    /*margin-left: 1em;*/
 }
 
 .main-work-interview__img img {
     display: block;
     width: 100%;
     max-width: 500px;
+    padding: 0 5px 5px 5px;
+    object-fit: cover;
 }
 
 .main-work-text {
@@ -158,15 +160,18 @@
 }
 
 .main-work-gallery__container {
-    width: 80%;
+    width: 100%;
     display: flex;
-    margin: 4em auto;
+    justify-content: center;
+    /*margin: 4em 1rem;*/
 }
 
 .main-work-gallery__container img {
     display: block;
     width: 23%;
-    margin: 0.5em;
+    min-width: 65px;
+    max-width: 200px;
+    margin: 6px;
 }
 
 .main-work-gallery__container img:hover {
