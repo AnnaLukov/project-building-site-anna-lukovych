@@ -102,6 +102,12 @@ main {
     padding: 0.2rem 0;
 }
 
+.mobile-nav__item a:hover,
+.mobile-nav__item a:active {
+    color: #337ab7;
+}
+
+.main-nav__item a:visited,
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: #337ab7;
