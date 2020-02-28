@@ -1,0 +1,233 @@
+.main-home-picture {
+    background-image: url("./image/architecture-1448221_1920.jpg");
+    background-color: #337ab7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    width: 100%;
+    height: 92vh;
+    margin-top: 3rem;
+    position: relative;
+    z-index: -1;
+}
+
+.main-home-picture__overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(51, 122, 183, 0.4);
+}
+
+.main-home-picture__overlay h1 {
+    width: 100%;
+    position: absolute;
+    top: 36vh;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgba(8, 41, 77,0.4);
+    box-shadow: 2px 5px 15px 10px #061E38 ;
+    animation: textanimation 1.3s ease-in-out;
+}
+
+@keyframes textanimation {
+    0% {
+        letter-spacing: 15px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
+
+.main-home-text {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.main-home-text p {
+    text-align: center;
+    font-size: 1.7em;
+    color: #08294D;
+    padding: 3rem 4rem;
+}
+
+.main-home-text span {
+    font-weight: bold;
+}
+
+
+@media (min-width: 40rem) {
+    .container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-home-picture {
+        width: 100%;
+    }
+}
+
+.main-home-rounds {
+    width: 100%;
+    background-image: url("./image/paper_3_@2X.png");
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    padding: 1.5rem 0;
+    font-size: 1rem;
+}
+
+.home-rounds__text {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.home-rounds__text h3 {
+    color: #061E38;
+    font-size: 1.7em;
+}
+
+.main-home-rounds div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.home-rounds {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-rounds p {
+    color: #061E38;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.2rem;
+}
+
+.home-round {
+    display: block;
+    margin: 1.5rem;
+    width: 130px;
+    height: 130px;
+    background: rgba(51, 122, 183, 1);
+    border-radius: 50%;
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.home-round:hover {
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.25),
+    inset 0 2px 0 rgba(255,255,255,0.6),
+    inset 0 0 20px rgba(0,0,0,0.1);
+}
+
+.fas {
+    font-size: 55px;
+    margin: auto;
+}
+
+.main-home-work {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.main-home-projects {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.main-home-projects h2 {
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+    color: #08294D;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2em;
+}
+
+.main-home-projects h2:hover,
+.main-home-projects h2:active {
+    color: #337ab7;
+}
+
+.container-projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-home-project {
+    margin: 0 1rem;
+}
+
+.imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgBox a {
+    display: block;
+}
+
+.imgBox a img {
+    width: 17rem;
+    height: 12.5rem;
+    transition: all 0.5s;
+}
+
+.imgBox:hover a img {
+    transform: scale(1.2);
+}
+
+.imgBox a::before {
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0,0.4);
+    width: 0;
+    height: 100%;
+    left: 50%;
+    transition: all0 0.5s;
+    z-index: 1;
+}
+
+.imgBox a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.imgBox h3 {
+    position: absolute;
+    bottom: 5%;
+    color: #ffffff;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+    font-weight: bolder;
+    margin: 6px 0;
+}
+
+.imgBox:hover h3 {
+    transform: translateY(150%);
+}
+/*@media (min-width: 40rem) {*/
+/*    !*.main-home-project {*!*/
+
+/*}*/
+
+.clear {
+    clear: both;
+}
+

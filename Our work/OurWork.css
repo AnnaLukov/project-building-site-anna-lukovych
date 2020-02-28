@@ -1,0 +1,64 @@
+.main-projects-text {
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1rem 5rem;
+}
+
+.main-projects-text h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #061E38;
+}
+
+.main-projects-text p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #1C212B;
+    font-weight: 400;
+}
+
+.main-project {
+    padding: 0.5rem 6rem;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+article img {
+    display: block;
+    width: 45%;
+    min-width: 322px;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+article div {
+    display: inline-block;
+    width: 45%;
+    min-width: 322px;
+    max-width: 800px;
+    text-align: justify;
+    padding: 1rem;
+    background-image: url("../image/paper_3_@2X.png");
+}
+
+article div h2 {
+    margin: 1.3rem;
+    font-size: 1.3rem;
+    color: #08294D;
+    text-align: center;
+    letter-spacing: 0.15rem;
+}
+
+article div p {
+    color: #061E38;
+    text-indent: 1.5em;
+    margin: 0.3rem;
+    /*text-align: justify;*/
+}

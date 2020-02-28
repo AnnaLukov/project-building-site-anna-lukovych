@@ -1,0 +1,149 @@
+.main-contact-picture {
+    background-image: url("../image/19_GLOBAL_Netherlands_Report_Blog_Banner.jpg");
+    background-color: #337ab7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 3rem;
+    position: relative;
+    z-index: -1;
+}
+
+.main-contact-picture__overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(51, 122, 183, 0.35);
+}
+
+.main-contact-text {
+    width: 100%;
+    display: inline-block;
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+.main-contact-text__appeal {
+    display: inline-block;
+    text-align: left;
+    padding: 0 3em;
+}
+
+.main-contact-text__appeal h1 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    color: #061E38;
+}
+
+.main-contact-text__appeal p {
+    font-size: 1.2em;
+    color: #061E38;
+}
+
+.main-contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 4rem 0;
+    padding: 0 2rem;
+    font-size: 1rem;
+}
+
+.main-contact-info__address {
+    margin: 0 2rem;
+    padding: 2em;
+}
+
+.main-contact-info__address h2 {
+    font-size: 1.2em;
+    color: #061E38;
+}
+
+.main-contact-info__address address {
+    font-size: 1em;
+    color: #061E38;
+    line-height: 2em;
+}
+
+.main-contact-info__address address > span {
+    font-weight: 600;
+}
+
+.main-contact-info__form{
+    display: flex;
+    max-width: 530px;
+    min-width: 300px;
+    margin: 0 1rem;
+    background: rgba(28, 33, 43,0.75);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+    width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 212px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+.btn {
+    background: #337ab7;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input-fields,
+    .msg{
+        width: 100%;
+    }
+}
